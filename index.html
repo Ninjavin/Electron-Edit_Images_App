@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Edit Images</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<div id="content" class="container">
+			<div id="main">
+				<div class="openfile">
+					<button id="openfile" class="btn btn-warning btn-lg btn-block">Open File</button>
+				</div>
+			</div>
+			<div class="inputStarts">
+				<div class="row">
+					<div class="editImage col-4" >
+						<div class="inputRange" >
+							<label for="hue">Hue</label>
+							<input type="range" class="custom-range" name="hue" id="hue" min="0" max="300" value="0">	
+						</div>
+					</div>
+					<div class="editImage col-4" >
+						<div class="inputRange" >
+							<label for="contrast">Contrast</label>
+							<input type="range" class="custom-range" name="contrast" id="contrast" min="-80" max="80" value="0">
+						</div>
+					</div>
+					<div class="editImage col-4">
+						<div class="inputRange" >
+							<label for="vibrance">Vibrance</label>
+							<input type="range" class="custom-range" name="vibrance" id="vibrance" min="0" max="400" value="0">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="editImage col-4" >
+						<div class="inputRange" >
+							<label for="sepia">Sepia</label>
+							<input type="range" class="custom-range" name="sepia" id="sepia" min="0" max="100" value="0">
+						</div>
+					</div>
+					<div class="editImage col-4" >
+						<div class="inputRange" >
+							<label for="saturation">Saturation</label>
+							<input type="range" class="custom-range" name="saturation" id="saturation" min="-50" max="50" value="0">
+						</div>
+					</div>	
+					<div class="editImage col-4">
+						<div class="inputRange" >
+							<label for="brightness">Brightness</label>
+							<input type="range" class="custom-range" name="brightness" id="brightness" min="-50" max="50" value="0">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<button id="savebtn" class="btn btn-success btn-lg" style="margin-bottom: 40px;">Download</button>
+			</div>
+			
+		</div>
+
+		
+
+		<!-- <button><a href="" id="downloadImage" download="Image">Download Edited Image</a></button> -->
+
+		<script src="script.js"></script>
+		<script src="caman.full.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+	
+</html>
+

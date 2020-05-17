@@ -1,0 +1,12 @@
+{
+  "name": "electron-images-app",
+  "version": "1.0.0",
+  "description": "Edit images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vineeta Jain",
+  "license": "ISC",
+  "dependencies": {}
+}

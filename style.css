@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    text-align: center;
+}
+
+#content{
+    font-size: 24px;
+    /* width: 90%; */
+    margin: 50px auto;
+}
+
+.openfile{
+    text-align: center;
+    padding: 15px;
+    margin: 0px auto;
+}
+
+#openfile{
+    font-size: 20px;
+}
+
+#showImage{
+    max-width: 90%;
+    max-height: 750px;
+}
+
+
+#savebtn{
+    font-size: 20px;
+    float: right;
+}
+
+.inputStarts{
+    margin: 30px;
+}
+
+.inputStarts .row{
+    padding: 20px;
+}
+
+.inputStarts .row .editImage{
+    padding: 10px;
+    line-height: 20px;
+    padding-right: 35px;
+}
+
+.inputStarts .row .editImage input{
+    float: right;
+}
